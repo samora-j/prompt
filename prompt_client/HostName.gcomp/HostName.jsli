@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6A1E45B41FDA41545EAA5C1274DB8876F1756999AD66FF9A7A842211E0AB7F53CB039865CCCC64D4E793B3CC08853E57D353528DE7D885A0244FD8DBDB05A11F" Timestamp="1D6ECD0EADC0D0C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<JavaScriptLibrary Id="61bc9a5734764b3ea16dc85e2789cd4d" xmlns="http://www.ni.com/JavaScriptLibrary">
+		<Icon Id="2c64e6ad55ae4940b65706df36e8dce7" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="40f185f6712141f48143a5dbad3cfb94" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="98aaed56d10d4c669ad33800da729ea3" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DependenciesTextBox Id="d06f9cf2084b4b3494d72a2c33af078e" />
+	</JavaScriptLibrary>
+	<EnvoyManagerFile Id="f010d5e6291b428c9aba0be8978411f9" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="a2a8fc1257ad4ce0aaab28ac2fe2515b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8d990920cf674957a65a8d4e29301c57" Name="HostName.jsli" NameTracksFileName="True" />
+	</EnvoyManagerFile>
+</SourceFile>
