@@ -19,12 +19,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="chunkify.vi" Type="VI" URL="../ServerSubVIs/chunkify.vi"/>
-		<Item Name="list_word_docs.vi" Type="VI" URL="../ServerSubVIs/list_word_docs.vi"/>
-		<Item Name="open_and_read_word.vi" Type="VI" URL="../ServerSubVIs/open_and_read_word.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="chunkify.vi" Type="VI" URL="../ServerSubVIs/chunkify.vi"/>
+			<Item Name="list_word_docs.vi" Type="VI" URL="../ServerSubVIs/list_word_docs.vi"/>
+			<Item Name="open_and_read_word.vi" Type="VI" URL="../ServerSubVIs/open_and_read_word.vi"/>
+			<Item Name="read_word.vi" Type="VI" URL="../ServerSubVIs/read_word.vi"/>
+			<Item Name="reconnect.vi" Type="VI" URL="../ServerSubVIs/reconnect.vi"/>
+			<Item Name="SendChunk.vi" Type="VI" URL="../ServerSubVIs/SendChunk.vi"/>
+		</Item>
 		<Item Name="Prompt" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">20</Property>
+			<Property Name="Bld_version.build" Type="Int">21</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -37,7 +42,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">20</Property>
+			<Property Name="ws.version.build" Type="Int">21</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -47,9 +52,6 @@
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
 		</Item>
-		<Item Name="read_word.vi" Type="VI" URL="../ServerSubVIs/read_word.vi"/>
-		<Item Name="reconnect.vi" Type="VI" URL="../ServerSubVIs/reconnect.vi"/>
-		<Item Name="SendChunk.vi" Type="VI" URL="../ServerSubVIs/SendChunk.vi"/>
 		<Item Name="Server_Main.vi" Type="VI" URL="../Server_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -85,7 +87,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Prompter</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{15DCE0B6-3D0F-4482-BE55-6CDDC9EF0555}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">propmter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Prompter/propmter.exe</Property>
